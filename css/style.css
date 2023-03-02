@@ -38,20 +38,21 @@
     text-decoration: underline overline;
 }
 h1{
-	font-size: 30px;
+	font-size: 50px;
 	color: #ff8800;
 	padding: 15px;
 	font-family: Times, "Times New Roman";
 	text-align: center;
-	text-decoration: underline overline;
 	transition: transform 2000ms ease;
 }
 h2{
 	font-size: 15px;
 	color: #ffa136;
-	padding: 15px;
+	padding: 30px;
 	font-family: Times, "Times New Roman";
 	text-align: center;
-	text-decoration: underline overline;
 	transition: transform 2000ms ease;
+}
+body {
+   background-color:  #faca93;
 }
