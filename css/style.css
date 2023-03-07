@@ -44,9 +44,9 @@ h1{
 	font-family: Times, "Times New Roman";
 	text-align: center;
 	transition: transform 2000ms ease;
-	border: ridge rgba(0,0,0,1); 
+	border: ridge rgba(243,156,18,1); 
 	border-radius: 25px;
-	background: #73AD21;
+	background: #FFFFFF;
 }
 h2{
 	font-size: 30px;
