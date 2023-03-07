@@ -101,6 +101,8 @@ body {
   margin-top: 0px;
   margin-bottom: 5px;
   border: ridge rgba(255,99,71,1); 
+  height: 900px;
+  width: 400px;
 }
 #DirectionsPictures{
   float: right;
