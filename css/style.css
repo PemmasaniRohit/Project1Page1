@@ -56,3 +56,12 @@ h2{
 body {
    background-color:  #faca93;
 }
+#experience {
+  float: center;
+  padding: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: ridge rgba(255, 158, 184, .6); 
+}
