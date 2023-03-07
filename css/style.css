@@ -1,5 +1,5 @@
 #main-navbar{
-    background-color: blue;
+    background-color: orange;
     overflow: hidden;
   }
 #navbar-container{
@@ -30,7 +30,7 @@
 }
 #main-navbar ul li a:hover{
     transform: scale(1.25);
-    background-color: #000;
+    background-color: #FFD580;
     
     
 }
