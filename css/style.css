@@ -82,7 +82,7 @@ h3{
   border: ridge rgba(255,99,71,1); 
 }
 #IITImage {
-  float: center;
+  float: right;
   padding: 5px;
   margin-left: 5px;
   margin-right: 5px;
