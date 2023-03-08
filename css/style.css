@@ -82,7 +82,7 @@ h3{
   border: ridge rgba(255,99,71,1); 
 }
 #IITImage {
-  float: right;
+  float: center;
   padding: 5px;
   margin-left: 5px;
   margin-right: 5px;
@@ -91,8 +91,8 @@ h3{
   border: ridge rgba(255,99,71,1); 
 }
 .IITPictures {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   padding-left: 5px;
 } 
 
@@ -123,7 +123,7 @@ h3{
   transition: transform 1500ms ease;
 }
 #DirectionsPictures:hover{
-    transform: scale(1.5);
+    transform: scale(1.05);
     background-color: #faca93;    
 }
 #DirectionsVideo{
@@ -137,7 +137,7 @@ h3{
   transition: transform 1500ms ease;
 }
 #DirectionsVideo:hover{
-    transform: scale(1.5);
+    transform: scale(1.05);
     background-color: #faca93;    
 }
 .InstructionManual{
