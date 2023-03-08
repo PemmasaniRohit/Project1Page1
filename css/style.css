@@ -71,7 +71,7 @@ h3{
   border: ridge rgba(255,99,71,1); 
   transition: transform 2000ms ease;
 }
-#experience:hover{
+#Experience:hover{
     background-color: rgba(255,255,255,.5);
     border: dotted rgba(255,99,71,1); 
 }
@@ -89,7 +89,7 @@ h3{
     border: dotted rgba(255,99,71,1); 
 }
 .IITPictures {
-  float: center;
+  float: right;
   padding: 5px;
   margin-left: 5px;
   margin-right: 5px;
