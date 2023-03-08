@@ -144,9 +144,19 @@ h3{
   padding-left: 5px;
 }
 #researchpaperBody{
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	background-color:  #CACAFF;
 }
 #instructionalmanualBody{
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	background-color:  #ffffff;
 }
 #resumeBody{
@@ -154,6 +164,7 @@ h3{
 	background-color:  #faca93;
 }
 #Paper{
+	  	
 	background-color: #ffffff;    
 	border: outset rgba(255,99,71,1); 
 }
