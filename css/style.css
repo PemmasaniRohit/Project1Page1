@@ -155,3 +155,11 @@ h3{
 	
 	background-color:  #faca93;
 }
+#Research{
+	background-color:  #rgba(255,255,255,.5);
+	border: outset rgba(255,99,71,1); 
+}
+#References{
+	background-color:  #rgba(255,255,255,.5);
+	border: outset rgba(255,99,71,1); 
+}
