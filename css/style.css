@@ -173,20 +173,22 @@ h3{
 	background-color:  #faca93;
 }
 #Paper{
-	padding: 5px;
+	border: 2px solid orange;
+  	border-radius: 8px;
+	padding: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;  	
 	background-color: #ffffff;    
-	border: outset rgba(255,99,71,1); 
 }
 #References{
-	padding: 5px;
+	border: 2px solid orange;
+  	border-radius: 8px;
+	padding: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-bottom: 5px;
 	background-color: #ffffff;    
-	border: outset rgba(255,99,71,1); 
 }
