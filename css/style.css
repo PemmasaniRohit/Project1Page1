@@ -56,6 +56,12 @@ h2{
 	text-align: center;
 	transition: transform 2000ms ease;
 }
+h3{
+	color: #FF9300;
+	font-family: Times, "Times New Roman";
+	text-align: center;
+	transition: transform 2000ms ease;
+}
 body {
    background-color:  #faca93;
 }
