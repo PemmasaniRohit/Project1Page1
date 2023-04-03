@@ -62,6 +62,7 @@ h3{
 }
 
 #Experience {
+  width = 200px;
   float: left;
   padding: 5px;
   margin-left: 15px;
@@ -76,6 +77,7 @@ h3{
     border: dotted rgba(255,99,71,1); 
 }
 #Skills {
+  width = 200px;
   float: right;
   padding: 15px;
   margin-left: 15px;
