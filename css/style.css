@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 #main-navbar{
     background-color: orange;
     overflow: hidden;
@@ -26,41 +25,31 @@
     display: block;
     padding: 10px 20px;
     color: #fff;
-    transition: transform 1.5s ease, color 1.5s ease-in-out, box-shadow 1.5s ease-in-out;
-    
+    text-decoration: none;
+    transition: transform 1500ms ease;
 }
 #main-navbar ul li a:hover{
-    transform: scale(1.10);
-    box-shadow: inset 10.938rem 0 0 0 rgb(255, 206, 132);
+    transform: scale(1.25);
+    background-color: #FFD580; 
 }
 #onpage{
     text-decoration: underline overline;
 }
-p{
-  font-family: Times, "Times New Roman";
-}
-li{
-  font-family: Times, "Times New Roman";
-}
 h1{
-	font-size: 4em;
+	font-size: 50px;
 	color: #ff8800;
-	padding: .1em;
-  font-family: 'Berkshire Swash', cursive;
+	padding: 15px;
+	font-family: Times, "Times New Roman";
 	text-align: center;
 	transition: transform 2000ms ease;
-	border: ridge #ffa600; 
-  border-width: .2em;
-	border-radius: 2em;
+	border: ridge rgba(243,156,18,1); 
+	border-radius: 25px;
 	background: #FFFFFF;
-  width: 75%;
-  margin: auto;
-  margin-top: .5em;
 }
 h2{
-	font-size: 2em;
+	font-size: 30px;
 	color: #ffa136;
-	padding: .25em;
+	padding: 30px;
 	font-family: Times, "Times New Roman";
 	text-align: center;
 	transition: transform 2000ms ease;
@@ -73,147 +62,96 @@ h3{
 }
 
 #Experience {
-  width: 50%;
   float: left;
-  padding: .5em;
-  margin-left: .5em;
-  margin-bottom:  .5em;
-  border: ridge #ffa136; 
-  border-width: 10px;
-  position: relative;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border: ridge rgba(255,99,71,1); 
   transition: transform 2000ms ease;
 }
 #Experience:hover{
     background-color: rgba(255,255,255,.5);
-    border: dotted #ffa136; 
-    border-width: 10px;
+    border: dotted rgba(255,99,71,1); 
 }
 #Skills {
   float: right;
-  width: 40%;
-  position: relative;
-  padding:  .5em;
-  margin-left:  .5em;
-  margin-right:  .5em;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 0px;
-  margin-bottom:  .5em;
-  border: ridge #ffa136; 
-  border-width: 10px;
+  margin-bottom: 5px;
+  border: ridge rgba(255,99,71,1); 
 }
 #Skills:hover{
     background-color: rgba(255,255,255,.5);
-    border: dotted #ffa136; 
-    border-width: 10px;
+    border: dotted rgba(255,99,71,1); 
 }
 .IITPictures {
-  float: left;
-  position: relative;
-  padding:  .5em;
-  margin-left:  15%;
-  margin-bottom:  .5em;
-  border: ridge #ffa136; 
-  border-width: 10px;
-  border-radius: 50%;
-  width: 16.5em;
-  height: 17em;
-  animation-name: picturehover;
-  animation-duration: 3s;  
+  float: right;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: ridge rgba(255,99,71,1); 
+  width: 250px;
+  height: 250px;
 } 
-@keyframes picturehover {
-  from {bottom: 50em;}
-  to {bottom: 0em;}
-}
 .IITPictures:hover{
     background-color: rgba(255,255,255,.5);
-    border: dotted #ffa136; 
-    border-width: 10px;
+    border: dotted rgba(255,99,71,1); 
 }
 #Directions{
-  text-align: center;
-  list-style-position: inside;
   float: left;
-  padding: 20px;
+  padding: 5px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 5px;
-  border: solid rgb(234, 182, 255); 
-  border-width: 10px;
+  border: double rgba(255,99,71,1); 
+  height: 900px;
+  width: 600px;
   transition: transform 1500ms ease;
 }
-
-
-
-
-
-
-
-
-
 #Directions:hover{
-  transform: scale(1.015);
-  background-color: #fde4c7;     
+    transform: scale(1.02);
+    background-color: #faca93;    
 }
 #DirectionsPictures{
-  position: relative;
-  float: left;
-  padding: .5em;
-  margin-left: .5em;
-  margin-right: 1em;
+  float: right;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 0px;
-  margin-bottom: .5em;
-  width: 40em;
-  height: 40em;
-  border: solid rgb(234, 182, 255); 
-  border-width: 10px;
+  margin-bottom: 5px;
+  border: double rgba(255,99,71,1); 
   transition: transform 1500ms ease;
 }
 #DirectionsPictures:hover{
-  transform: scale(1.025);
-  background-color: #fde4c7;    
-}
-.InstructionManual{
-  width: 75%;
-  height: 75%;
-  padding-left: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    transform: scale(1.05);
+    background-color: #faca93;    
 }
 #DirectionsVideo{
-  position: relative;
   float: right;
-  padding: .5em;
-  margin-left: .5em;
-  margin-right: .5em;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 0px;
-  margin-bottom: .5em;
-  width: 40em;
-  height: 40em;
-  border: solid rgb(234, 182, 255); 
-  border-width: 10px;
+  margin-bottom: 5px;
+  border: double rgba(255,99,71,1); 
   transition: transform 1500ms ease;
 }
 #DirectionsVideo:hover{
-  transform: scale(01.025);
-  background-color: #fde4c7;    
+    transform: scale(1.05);
+    background-color: #faca93;    
 }
-.InstructionalVideo{
-  width: 75%;
-  height: 75%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.InstructionManual{
+  width: 287px;
+  height: 255.5px;
+  padding-left: 5px;
 }
-
-
-
-
-
-
-
-
-
 #researchpaperBody{
 	padding: 5px;
 	margin-left: 5px;
@@ -228,15 +166,15 @@ h3{
 	margin-right: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(227, 206, 255));
+	background-color:  #ffffff;
 }
 #resumeBody{
-  background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(253, 226, 186));
-	/*background-color:  #fcd7ae;*/
+	
+	background-color:  #faca93;
 }
 #Paper{
 	border: 2px solid orange;
-  border-radius: 8px;
+  	border-radius: 8px;
 	padding: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -246,7 +184,7 @@ h3{
 }
 #References{
 	border: 2px solid orange;
-  border-radius: 8px;
+  	border-radius: 8px;
 	padding: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
