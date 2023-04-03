@@ -64,8 +64,8 @@ h3{
 #Experience {
   float: left;
   padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 0px;
   margin-bottom: 5px;
   border: ridge rgba(255,99,71,1); 
@@ -77,9 +77,9 @@ h3{
 }
 #Skills {
   float: right;
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 0px;
   margin-bottom: 5px;
   border: ridge rgba(255,99,71,1); 
@@ -91,8 +91,8 @@ h3{
 .IITPictures {
   float: right;
   padding: 5px;
-  margin-left: 5px;
-  margin-right: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 5px;
   margin-bottom: 5px;
   border: ridge rgba(255,99,71,1); 
